@@ -66,7 +66,7 @@ int main()
 	sf::CircleShape shape(100.f);
 
 	//shape.setFillColor(sf::Color::Red);
-
+	 
 	Texture textureFont;
 	textureFont.loadFromFile("res/font.jpg");
 	RectangleShape recShape(Vector2f(window.getSize()));
